@@ -1,0 +1,8 @@
+{
+  "version": "1.1.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.1.0/RuneCast.exe",
+  "changelog": "Initial RuneCast release with template export/import and screen detection.",
+  "required": false,
+  "blocked": false,
+  "block_message": ""
+}

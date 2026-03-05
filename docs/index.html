@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RuneCast — See It. Match It. Automate It.</title>
+  <meta name="description" content="RuneCast is the all-in-one desktop and game automation platform powered by image recognition. No coding required. Lifetime updates included.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating particles -->
+<div class="rune-particles">
+  <div class="rune-particle"></div><div class="rune-particle"></div>
+  <div class="rune-particle"></div><div class="rune-particle"></div>
+  <div class="rune-particle"></div><div class="rune-particle"></div>
+  <div class="rune-particle"></div><div class="rune-particle"></div>
+  <div class="rune-particle"></div><div class="rune-particle"></div>
+  <div class="rune-particle"></div><div class="rune-particle"></div>
+</div>
+
+<!-- ═══ HEADER ═══ -->
+<header class="header" id="header">
+  <a href="#" class="logo">
+    <!-- RuneCast Rune Icon -->
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="14" cy="14" r="12.5" stroke="#00a3ff" stroke-width="1.5" fill="#0a0a14"/>
+      <path d="M14 4.5 L14 23.5" stroke="#00a3ff" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M7.5 14 L20.5 14" stroke="#00a3ff" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M14 6 L20 14 L14 22 L8 14 Z" stroke="#00e5c7" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+      <circle cx="14" cy="14" r="2" fill="#00e5c7"/>
+      <path d="M12 5.5 L14 4 L16 5.5" stroke="#a855f7" stroke-width="1" stroke-linecap="round" fill="none"/>
+      <path d="M12 22.5 L14 24 L16 22.5" stroke="#a855f7" stroke-width="1" stroke-linecap="round" fill="none"/>
+    </svg>
+    RuneCast
+  </a>
+  <nav class="nav">
+    <a href="#features">Features</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#compare">Why RuneCast</a>
+    <a href="#faq">FAQ</a>
+    <a href="https://github.com/nectra-th/runecast-releases/releases/latest" class="btn btn-primary nav-cta">Download Free</a>
+  </nav>
+</header>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div class="hero-glow"></div>
+
+  <div class="hero-badge">
+    <span class="dot"></span>
+    All-in-One Automation Platform
+  </div>
+
+  <h1>
+    See It. Match It.<br>
+    <span class="text-gradient">Automate It.</span>
+  </h1>
+
+  <p class="hero-sub">
+    The visual automation engine that sees your screen and acts.
+    No coding. No scripting. Just draw what you see — RuneCast handles the rest.
+  </p>
+
+  <div class="hero-cta">
+    <a href="https://github.com/nectra-th/runecast-releases/releases/latest" class="btn btn-primary">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      Download Free
+    </a>
+    <a href="#features" class="btn btn-ghost">Explore Features</a>
+  </div>
+
+  <!-- App screenshot mockup -->
+  <div style="margin-top: 48px; position: relative; z-index: 2; width: 100%; max-width: 820px;">
+    <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.5), var(--glow-blue);">
+      <!-- Title bar -->
+      <div style="display: flex; align-items: center; gap: 8px; padding: 10px 14px; background: var(--bg-elevated); border-bottom: 1px solid var(--border);">
+        <div style="width: 10px; height: 10px; border-radius: 50%; background: #ff5f57;"></div>
+        <div style="width: 10px; height: 10px; border-radius: 50%; background: #febc2e;"></div>
+        <div style="width: 10px; height: 10px; border-radius: 50%; background: #28c840;"></div>
+        <span style="margin-left: 8px; font-size: 0.75rem; color: var(--text-dim); font-weight: 500;">RuneCast — Desktop Automation</span>
+      </div>
+      <!-- App UI mockup -->
+      <div style="display: grid; grid-template-columns: 1fr 260px; min-height: 340px;">
+        <!-- Main preview area -->
+        <div style="padding: 16px; display: flex; flex-direction: column; gap: 12px;">
+          <!-- Toolbar -->
+          <div style="display: flex; align-items: center; gap: 8px; padding: 6px 10px; background: var(--bg-elevated); border-radius: 8px; border: 1px solid var(--border);">
+            <div style="padding: 3px 10px; background: var(--accent); color: #000; border-radius: 4px; font-size: 0.7rem; font-weight: 700;">Select Window</div>
+            <span style="font-size: 0.7rem; color: var(--cyan); font-weight: 500;">Game.exe</span>
+            <div style="flex:1"></div>
+            <span style="font-size: 0.65rem; color: var(--text-dim);">400ms</span>
+            <div style="width: 1px; height: 14px; background: var(--border);"></div>
+            <div style="padding: 2px 8px; background: var(--purple); color: #000; border-radius: 4px; font-size: 0.65rem; font-weight: 600;">BG</div>
+            <div style="padding: 2px 8px; background: #28c840; color: #000; border-radius: 6px; font-size: 0.7rem; font-weight: 700;">Play</div>
+          </div>
+          <!-- Preview area with scanning overlay -->
+          <div style="flex: 1; background: #111118; border-radius: 8px; border: 1px solid var(--border); position: relative; overflow: hidden; min-height: 220px;">
+            <!-- Simulated game screenshot -->
+            <div style="position: absolute; inset: 0; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); opacity: 0.8;"></div>
+            <!-- Scan highlight boxes -->
+            <div style="position: absolute; top: 25%; left: 20%; width: 80px; height: 50px; border: 2px solid var(--accent); border-radius: 4px; box-shadow: 0 0 12px rgba(0,163,255,0.3);"></div>
+            <div style="position: absolute; top: 55%; left: 50%; width: 60px; height: 40px; border: 2px solid var(--cyan); border-radius: 4px; box-shadow: 0 0 12px rgba(0,229,199,0.3);"></div>
+            <div style="position: absolute; top: 35%; left: 65%; width: 70px; height: 45px; border: 2px solid var(--purple); border-radius: 4px; box-shadow: 0 0 12px rgba(168,85,247,0.3);"></div>
+            <!-- Match indicator -->
+            <div style="position: absolute; top: 8px; right: 8px; padding: 3px 8px; background: rgba(40,200,64,0.2); border: 1px solid rgba(40,200,64,0.4); border-radius: 4px; font-size: 0.6rem; color: #28c840; font-weight: 600;">SCANNING</div>
+          </div>
+        </div>
+        <!-- Sidebar: template cards -->
+        <div style="border-left: 1px solid var(--border); padding: 8px; display: flex; flex-direction: column; gap: 6px; background: var(--bg-deep);">
+          <div style="display: flex; gap: 4px; padding: 4px;">
+            <div style="padding: 4px 12px; background: var(--accent); color: #000; border-radius: 4px; font-size: 0.65rem; font-weight: 700;">Click</div>
+            <div style="padding: 4px 12px; background: var(--border); color: var(--text-dim); border-radius: 4px; font-size: 0.65rem; font-weight: 500;">Drag</div>
+            <div style="padding: 4px 12px; background: var(--border); color: var(--text-dim); border-radius: 4px; font-size: 0.65rem; font-weight: 500;">Wait</div>
+            <div style="padding: 4px 12px; background: var(--border); color: var(--text-dim); border-radius: 4px; font-size: 0.65rem; font-weight: 500;">HotKey</div>
+          </div>
+          <!-- Card 1 -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;">
+            <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">
+              <div style="width: 3px; height: 14px; background: var(--accent); border-radius: 2px;"></div>
+              <span style="font-size: 0.7rem; font-weight: 600;">Click #1</span>
+              <div style="flex:1"></div>
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: #28c840;"></div>
+            </div>
+            <div style="height: 12px; background: var(--bg-elevated); border-radius: 4px; overflow: hidden;">
+              <div style="width: 85%; height: 100%; background: linear-gradient(90deg, var(--accent), var(--cyan)); border-radius: 4px;"></div>
+            </div>
+            <div style="font-size: 0.55rem; color: var(--text-dim); margin-top: 3px;">85% match</div>
+          </div>
+          <!-- Card 2 -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;">
+            <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">
+              <div style="width: 3px; height: 14px; background: var(--purple); border-radius: 2px;"></div>
+              <span style="font-size: 0.7rem; font-weight: 600;">Wait #2</span>
+              <div style="flex:1"></div>
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: #28c840;"></div>
+            </div>
+            <div style="height: 12px; background: var(--bg-elevated); border-radius: 4px; overflow: hidden;">
+              <div style="width: 72%; height: 100%; background: linear-gradient(90deg, var(--purple), var(--cyan)); border-radius: 4px;"></div>
+            </div>
+            <div style="font-size: 0.55rem; color: var(--text-dim); margin-top: 3px;">72% match</div>
+          </div>
+          <!-- Card 3 -->
+          <div style="background: var(--bg-card); border: 1px solid rgba(0,229,199,0.3); border-radius: 8px; padding: 8px 10px; box-shadow: 0 0 8px rgba(0,229,199,0.1);">
+            <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 6px;">
+              <div style="width: 3px; height: 14px; background: #f0a030; border-radius: 2px;"></div>
+              <span style="font-size: 0.7rem; font-weight: 600;">Drag #3</span>
+              <div style="flex:1"></div>
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: #28c840;"></div>
+            </div>
+            <div style="height: 12px; background: var(--bg-elevated); border-radius: 4px; overflow: hidden;">
+              <div style="width: 93%; height: 100%; background: linear-gradient(90deg, #f0a030, var(--cyan)); border-radius: 4px;"></div>
+            </div>
+            <div style="font-size: 0.55rem; color: var(--cyan); margin-top: 3px; font-weight: 600;">93% match — FIRED</div>
+          </div>
+          <div style="flex: 1;"></div>
+          <!-- Log area -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-family: var(--mono); font-size: 0.55rem; color: var(--text-dim); line-height: 1.6;">
+            <div><span style="color: var(--text-dim);">[12:04:31]</span> <span style="color: #28c840;">Drag #3 fired</span></div>
+            <div><span style="color: var(--text-dim);">[12:04:30]</span> Scanning...</div>
+            <div><span style="color: var(--text-dim);">[12:04:29]</span> <span style="color: #28c840;">Click #1 fired</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats bar -->
+  <div class="stats-bar fade-in">
+    <div class="stat">
+      <div class="stat-val"><span class="accent">9</span>+</div>
+      <div class="stat-label">Automation Types</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val"><span class="cyan">0</span>ms</div>
+      <div class="stat-label">Coding Required</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val"><span class="purple">&infin;</span></div>
+      <div class="stat-label">Lifetime Updates</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val"><span class="gold">30</span>fps</div>
+      <div class="stat-label">Real-Time Scanning</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ HOW IT WORKS ═══ -->
+<section id="how-it-works">
+  <span class="section-label">How It Works</span>
+  <h2 class="section-title">Three Steps to Full Automation</h2>
+  <p class="section-desc">No scripting. No complex setup. Just draw, configure, and let RuneCast handle the rest.</p>
+
+  <div class="steps-grid fade-in stagger">
+    <div class="step">
+      <div class="step-num">1</div>
+      <h3>Select &amp; Draw</h3>
+      <p>Pick your target window, then draw directly on the live preview to define what RuneCast should look for.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <h3>Configure Action</h3>
+      <p>Choose the action type — click, drag, wait, hotkey, or conditional logic. Fine-tune thresholds and offsets.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <h3>Hit Play</h3>
+      <p>Press F9 and RuneCast scans in real-time, matches your templates, and fires actions automatically.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FEATURES ═══ -->
+<section id="features">
+  <span class="section-label">Features</span>
+  <h2 class="section-title">Everything You Need. Nothing You Don't.</h2>
+  <p class="section-desc">From simple clicks to complex conditional logic — RuneCast covers every automation scenario.</p>
+
+  <div class="features-grid fade-in stagger">
+    <div class="feature-card">
+      <div class="feature-icon blue">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg>
+      </div>
+      <h3>Smart Click</h3>
+      <p>Image-based clicking that adapts to UI changes. RuneCast finds the image wherever it moves.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon cyan">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 9l4-4 4 4"/><path d="M9 5v14"/><path d="M19 15l-4 4-4-4"/><path d="M15 19V5"/></svg>
+      </div>
+      <h3>Drag &amp; Drop</h3>
+      <p>Match source image, drag to destination. Automate inventory management, card games, and more.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon purple">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      </div>
+      <h3>Wait &amp; Click</h3>
+      <p>Wait for an image to appear, then click after a customizable delay. Perfect for loading screens.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon blue">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </div>
+      <h3>Conditional Logic</h3>
+      <p>If image A is found, click image B. Build smart branching workflows that adapt to screen state.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon cyan">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h.01M10 8h.01M14 8h.01"/></svg>
+      </div>
+      <h3>HotKey Sequences</h3>
+      <p>When an image is detected, fire complex key combinations. Automate skill rotations and inputs.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon purple">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+      </div>
+      <h3>Multi-Template</h3>
+      <p>Match multiple images simultaneously. Handle dynamic UIs where elements change appearance.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon blue">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+      </div>
+      <h3>Background Mode</h3>
+      <p>Run automation silently without moving your real mouse. Browse and work while RuneCast handles everything.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon cyan">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </div>
+      <h3>Macro Recorder</h3>
+      <p>Record mouse clicks and key presses, then replay them. Chain macros with template triggers.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon purple">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </div>
+      <h3>Profiles</h3>
+      <p>Save different template sets per game or app. Switch between profiles in one click from the launcher.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COMPARISON ═══ -->
+<section id="compare">
+  <span class="section-label" style="text-align:center;display:block">Why RuneCast</span>
+  <h2 class="section-title" style="text-align:center">Built Different</h2>
+  <p class="section-desc" style="text-align:center;margin:0 auto 0;">Unlike other tools, RuneCast combines image recognition, background automation, and a visual no-code interface in one platform.</p>
+
+  <div class="compare-grid fade-in stagger">
+    <div class="compare-card">
+      <div class="ours">Image Recognition</div>
+      <div class="vs">VS</div>
+      <div class="theirs">Fixed Coordinates</div>
+      <p>Traditional tools replay at exact coordinates and break when a window moves. RuneCast finds images wherever they are.</p>
+    </div>
+    <div class="compare-card">
+      <div class="ours">Visual No-Code</div>
+      <div class="vs">VS</div>
+      <div class="theirs">Scripting Required</div>
+      <p>AutoHotkey requires scripting. RuneCast lets you draw on a live preview — point at what you see, and it automates.</p>
+    </div>
+    <div class="compare-card">
+      <div class="ours">Background Mode</div>
+      <div class="vs">VS</div>
+      <div class="theirs">Mouse Lock</div>
+      <p>Most tools take over your mouse. RuneCast's background mode sends inputs directly to the target window.</p>
+    </div>
+    <div class="compare-card">
+      <div class="ours">Lifetime License</div>
+      <div class="vs">VS</div>
+      <div class="theirs">Monthly Subscriptions</div>
+      <p>Other tools charge $5-10/month. RuneCast is a one-time deal with lifetime updates. Everything included, forever.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TRUST ═══ -->
+<section id="trust">
+  <span class="section-label" style="text-align:center;display:block">Safety</span>
+  <h2 class="section-title" style="text-align:center">Your Safety Is Non-Negotiable</h2>
+
+  <div class="trust-grid fade-in stagger">
+    <div class="trust-card">
+      <span class="trust-icon">&#x1f6e1;</span>
+      <h3>No Memory Injection</h3>
+      <p>RuneCast uses pixel-level image recognition only. It never reads or writes to game memory.</p>
+    </div>
+    <div class="trust-card">
+      <span class="trust-icon">&#x1f4e6;</span>
+      <h3>Clean &amp; Portable</h3>
+      <p>Single .exe, no installer, no registry, no background services. Delete it and it's gone.</p>
+    </div>
+    <div class="trust-card">
+      <span class="trust-icon">&#x267b;</span>
+      <h3>Lifetime Updates</h3>
+      <p>Auto-update built in. Every future version is included at no additional cost.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ GUIDE ═══ -->
+<section id="guide">
+  <span class="section-label">Getting Started</span>
+  <h2 class="section-title">Up and Running in 60 Seconds</h2>
+
+  <div class="accordion" id="guide-accordion">
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>1. Download &amp; Launch</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>Download RuneCast.exe and run it. Windows SmartScreen may show a warning — click "More info" then "Run anyway". The app requests admin privileges for window capture access.</p>
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>2. Select a Window</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>Click "Select Window" in the toolbar. A list of all open windows appears. Pick the one you want to automate — it can be a game, browser, or any application.</p>
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>3. Draw a Template</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>Choose a mode (Click, Drag, Wait, HotKey) from the sidebar, then draw two rectangles on the live preview: the search area and the target image. RuneCast saves them as a template.</p>
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>4. Adjust Threshold</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>Each template has a match bar showing real-time confidence. Drag the threshold slider to control how strictly RuneCast matches. Higher = more precise, lower = more tolerant.</p>
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>5. Hit Play</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>Press F9 or click Play. RuneCast continuously scans and performs actions when templates match. Press F9 again to stop. Use "BG" mode to automate without moving your real mouse.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section id="faq">
+  <span class="section-label" style="text-align:center;display:block">FAQ</span>
+  <h2 class="section-title" style="text-align:center">Frequently Asked Questions</h2>
+
+  <div class="accordion" id="faq-accordion">
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>Is RuneCast safe to use?</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>Yes. RuneCast uses pixel-level image recognition only — it never reads or injects into game memory. It's a single .exe with no installer, no registry modifications, and no background services.</p>
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>Will I get banned for using this in games?</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>RuneCast operates at the pixel level and does not modify game files or memory. However, automating games may violate their Terms of Service. Use responsibly and check each game's policy.</p>
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>What does "lifetime updates" mean?</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>Every future update is included at no additional cost. The app automatically checks for updates on startup. You always get the latest features and improvements — forever.</p>
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>What apps and games does it work with?</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>RuneCast works with any application that renders to a window on Windows 10/11 — games, browsers, desktop apps, and more.</p>
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>Can I use my PC while it runs?</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>Absolutely. Background mode sends clicks and keystrokes directly to the target window without moving your real mouse. You can browse, chat, or work on other tasks simultaneously.</p>
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header" onclick="toggleAccordion(this)">
+        <span>Can I share templates with friends?</span>
+        <span class="accordion-chevron">&#x25b6;</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        <p>Yes! Use the Export/Import feature in the gear menu. Templates are bundled into a .runecast file with all images included. Screen resolution is checked on import to ensure compatibility.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FINAL CTA ═══ -->
+<div class="cta-section">
+  <h2 class="section-title"><span class="text-gradient">Cast Your First Rune</span></h2>
+  <p>Download RuneCast free and start automating in under 60 seconds.</p>
+  <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+    <a href="https://github.com/nectra-th/runecast-releases/releases/latest" class="btn btn-primary">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      Download Free
+    </a>
+  </div>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <div>&copy; 2026 RuneCast. All rights reserved.</div>
+  <div class="footer-links">
+    <a href="https://github.com/nectra-th/runecast-releases/releases">Releases</a>
+    <a href="#guide">Guide</a>
+    <a href="#faq">FAQ</a>
+  </div>
+</footer>
+
+<!-- ═══ SCRIPTS ═══ -->
+<script>
+// Scroll animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.12 });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// Header scroll effect
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 20);
+});
+
+// Accordion
+function toggleAccordion(el) {
+  const item = el.parentElement;
+  const body = item.querySelector('.accordion-body');
+  const isOpen = item.classList.contains('open');
+
+  // Close siblings
+  item.parentElement.querySelectorAll('.accordion-item').forEach(i => {
+    i.classList.remove('open');
+    i.querySelector('.accordion-body').style.maxHeight = null;
+  });
+
+  if (!isOpen) {
+    item.classList.add('open');
+    body.style.maxHeight = body.scrollHeight + 'px';
+  }
+}
+</script>
+</body>
+</html>
