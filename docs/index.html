@@ -73,167 +73,15 @@
     <a href="#features" class="btn btn-ghost">Explore Features</a>
   </div>
 
-  <!-- App screenshot mockup — 3D floating with animated game scene -->
-  <div class="app-mockup-wrapper">
-    <div class="app-mockup">
-      <div class="app-mockup-glow"></div>
-      <!-- Title bar -->
-      <div class="app-titlebar">
-        <div class="app-titlebar-dots">
-          <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
-        </div>
-        <span class="app-titlebar-text">RuneCast — Desktop Automation</span>
-        <div class="app-titlebar-controls">
-          <svg width="10" height="10" viewBox="0 0 10 10"><rect x="0" y="4" width="10" height="1.5" fill="#5a5e72"/></svg>
-          <svg width="10" height="10" viewBox="0 0 10 10"><rect x="1" y="1" width="8" height="8" fill="none" stroke="#5a5e72" stroke-width="1.2"/></svg>
-          <svg width="10" height="10" viewBox="0 0 10 10"><path d="M2 2L8 8M8 2L2 8" stroke="#5a5e72" stroke-width="1.2"/></svg>
-        </div>
-      </div>
-      <!-- App content -->
-      <div class="app-content">
-        <!-- Main preview area -->
-        <div class="app-main">
-          <!-- Toolbar -->
-          <div class="app-toolbar">
-            <div class="toolbar-btn toolbar-btn-accent">Select Window</div>
-            <span class="toolbar-target">EternalQuest.exe</span>
-            <div class="toolbar-sep"></div>
-            <span class="toolbar-interval">350ms</span>
-            <div class="toolbar-sep"></div>
-            <div class="toolbar-btn toolbar-btn-purple">BG</div>
-            <div class="toolbar-btn toolbar-btn-play">
-              <svg width="8" height="10" viewBox="0 0 8 10" fill="#000"><polygon points="0,0 8,5 0,10"/></svg>
-              Play
-            </div>
-          </div>
-          <!-- Game preview area -->
-          <div class="app-preview">
-            <!-- Real game footage — crossfading videos -->
-            <div class="video-carousel">
-              <video class="game-video active" autoplay muted loop playsinline>
-                <source src="vid/dungeon.mp4" type="video/mp4">
-              </video>
-              <video class="game-video" muted loop playsinline>
-                <source src="vid/dragon.mp4" type="video/mp4">
-              </video>
-              <video class="game-video" muted loop playsinline>
-                <source src="vid/cyberpunk.mp4" type="video/mp4">
-              </video>
-            </div>
-            <!-- Dark vignette overlay for blending -->
-            <div class="video-vignette"></div>
-            <!-- Game HUD overlay on video -->
-            <div class="game-hud">
-              <div class="game-ui-top">
-                <div class="game-hp-bar">
-                  <div class="game-hp-fill"></div>
-                  <span>HP</span>
-                </div>
-                <div class="game-mp-bar">
-                  <div class="game-mp-fill"></div>
-                  <span>MP</span>
-                </div>
-                <div class="game-level">Lv.42</div>
-              </div>
-              <div class="game-ui-bottom">
-                <div class="game-skill-slot s1"></div>
-                <div class="game-skill-slot s2"></div>
-                <div class="game-skill-slot s3"></div>
-                <div class="game-skill-slot s4"></div>
-                <div class="game-skill-slot s5"></div>
-                <div class="game-skill-slot s6"></div>
-              </div>
-              <div class="game-minimap">
-                <div class="minimap-dot"></div>
-              </div>
-            </div>
-            <!-- RuneCast scan overlay -->
-            <div class="scan-line"></div>
-            <!-- Template match boxes with pulse animation -->
-            <div class="match-box mb1">
-              <div class="match-corners"></div>
-              <span class="match-label">93%</span>
-            </div>
-            <div class="match-box mb2">
-              <div class="match-corners"></div>
-              <span class="match-label">87%</span>
-            </div>
-            <div class="match-box mb3">
-              <div class="match-corners"></div>
-              <span class="match-label">91%</span>
-            </div>
-            <!-- Click target crosshair -->
-            <div class="click-target">
-              <div class="crosshair"></div>
-              <div class="click-ripple"></div>
-            </div>
-            <!-- Status badge -->
-            <div class="scan-status">
-              <span class="scan-dot"></span>
-              SCANNING — 3 ACTIVE
-            </div>
-          </div>
-        </div>
-        <!-- Sidebar -->
-        <div class="app-sidebar">
-          <!-- Tab bar -->
-          <div class="sidebar-tabs">
-            <div class="stab active">Click</div>
-            <div class="stab">Drag</div>
-            <div class="stab">Wait</div>
-            <div class="stab">Key</div>
-          </div>
-          <!-- Template cards -->
-          <div class="tpl-card tpl-active">
-            <div class="tpl-header">
-              <div class="tpl-indicator" style="background: var(--accent);"></div>
-              <span class="tpl-name">HP Potion</span>
-              <div class="tpl-status-dot pulse-green"></div>
-            </div>
-            <div class="tpl-bar-track"><div class="tpl-bar-fill bar-fill-1" style="--bar-width: 93%; --bar-color-a: var(--accent); --bar-color-b: var(--cyan);"></div></div>
-            <div class="tpl-meta"><span class="tpl-pct accent">93%</span> <span class="tpl-fired">FIRED</span></div>
-          </div>
-          <div class="tpl-card">
-            <div class="tpl-header">
-              <div class="tpl-indicator" style="background: var(--purple);"></div>
-              <span class="tpl-name">Skill Ready</span>
-              <div class="tpl-status-dot pulse-green"></div>
-            </div>
-            <div class="tpl-bar-track"><div class="tpl-bar-fill bar-fill-2" style="--bar-width: 87%; --bar-color-a: var(--purple); --bar-color-b: var(--cyan);"></div></div>
-            <div class="tpl-meta"><span class="tpl-pct purple-text">87%</span> <span class="tpl-fired">FIRED</span></div>
-          </div>
-          <div class="tpl-card">
-            <div class="tpl-header">
-              <div class="tpl-indicator" style="background: var(--gold);"></div>
-              <span class="tpl-name">Loot Drop</span>
-              <div class="tpl-status-dot"></div>
-            </div>
-            <div class="tpl-bar-track"><div class="tpl-bar-fill bar-fill-3" style="--bar-width: 45%; --bar-color-a: var(--gold); --bar-color-b: var(--gold);"></div></div>
-            <div class="tpl-meta"><span class="tpl-pct gold-text">45%</span></div>
-          </div>
-          <div class="tpl-card">
-            <div class="tpl-header">
-              <div class="tpl-indicator" style="background: var(--cyan);"></div>
-              <span class="tpl-name">Menu Detect</span>
-              <div class="tpl-status-dot pulse-green"></div>
-            </div>
-            <div class="tpl-bar-track"><div class="tpl-bar-fill bar-fill-4" style="--bar-width: 91%; --bar-color-a: var(--cyan); --bar-color-b: var(--accent);"></div></div>
-            <div class="tpl-meta"><span class="tpl-pct cyan-text">91%</span> <span class="tpl-fired">FIRED</span></div>
-          </div>
-          <div class="sidebar-spacer"></div>
-          <!-- Log panel -->
-          <div class="app-log">
-            <div class="log-entry le1"><span class="log-time">[12:04:33]</span> <span class="log-ok">HP Potion clicked — 93%</span></div>
-            <div class="log-entry le2"><span class="log-time">[12:04:32]</span> <span class="log-ok">Skill Ready fired — Key: Q</span></div>
-            <div class="log-entry le3"><span class="log-time">[12:04:31]</span> Scanning 4 templates...</div>
-            <div class="log-entry le4"><span class="log-time">[12:04:30]</span> <span class="log-ok">Menu Detect — Ctrl+Esc</span></div>
-            <div class="log-entry le5"><span class="log-time">[12:04:29]</span> <span class="log-ok">HP Potion clicked — 91%</span></div>
-          </div>
-        </div>
-      </div>
+  <!-- Real app showcase video -->
+  <div class="showcase-wrapper">
+    <div class="showcase-glow"></div>
+    <div class="showcase-frame">
+      <video class="showcase-video" autoplay muted loop playsinline>
+        <source src="vid/showcase.mp4" type="video/mp4">
+      </video>
     </div>
-    <!-- Reflection -->
-    <div class="app-reflection"></div>
+    <div class="showcase-reflection"></div>
   </div>
 
   <!-- Stats bar -->
@@ -565,28 +413,6 @@ const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 20);
 });
-
-// Video carousel — crossfade between game clips
-(function() {
-  const videos = document.querySelectorAll('.game-video');
-  if (videos.length < 2) return;
-  let current = 0;
-  const INTERVAL = 8000; // 8 seconds per clip
-  const FADE_MS = 1200;
-
-  setInterval(() => {
-    const prev = current;
-    current = (current + 1) % videos.length;
-    // Start next video
-    videos[current].currentTime = 0;
-    videos[current].play();
-    videos[current].style.transition = `opacity ${FADE_MS}ms ease-in-out`;
-    videos[current].classList.add('active');
-    // Fade out previous
-    videos[prev].style.transition = `opacity ${FADE_MS}ms ease-in-out`;
-    videos[prev].classList.remove('active');
-  }, INTERVAL);
-})();
 
 // Accordion
 function toggleAccordion(el) {
