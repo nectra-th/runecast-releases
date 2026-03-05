@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.1.0/RuneCast.exe",
-  "changelog": "Initial RuneCast release with template export/import and screen detection.",
+  "version": "1.2.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.2.0/RuneCast.exe",
+  "changelog": "Macro feature disabled (Coming Soon with F8 hotkey preview), Pioneer License branding.",
   "required": false,
   "blocked": false,
   "block_message": ""
