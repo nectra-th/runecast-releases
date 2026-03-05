@@ -108,20 +108,22 @@
           </div>
           <!-- Game preview area -->
           <div class="app-preview">
-            <!-- Animated game scene -->
-            <div class="game-scene">
-              <!-- Sky/stars layer -->
-              <div class="game-stars"></div>
-              <!-- Landscape -->
-              <div class="game-mountains"></div>
-              <div class="game-ground"></div>
-              <!-- Floating particles in game -->
-              <div class="game-particle gp1"></div>
-              <div class="game-particle gp2"></div>
-              <div class="game-particle gp3"></div>
-              <div class="game-particle gp4"></div>
-              <div class="game-particle gp5"></div>
-              <!-- Game UI overlay elements -->
+            <!-- Real game footage — crossfading videos -->
+            <div class="video-carousel">
+              <video class="game-video active" autoplay muted loop playsinline>
+                <source src="vid/dungeon.mp4" type="video/mp4">
+              </video>
+              <video class="game-video" muted loop playsinline>
+                <source src="vid/dragon.mp4" type="video/mp4">
+              </video>
+              <video class="game-video" muted loop playsinline>
+                <source src="vid/cyberpunk.mp4" type="video/mp4">
+              </video>
+            </div>
+            <!-- Dark vignette overlay for blending -->
+            <div class="video-vignette"></div>
+            <!-- Game HUD overlay on video -->
+            <div class="game-hud">
               <div class="game-ui-top">
                 <div class="game-hp-bar">
                   <div class="game-hp-fill"></div>
@@ -143,15 +145,6 @@
               </div>
               <div class="game-minimap">
                 <div class="minimap-dot"></div>
-              </div>
-              <!-- Enemy character -->
-              <div class="game-enemy">
-                <div class="enemy-hp"><div class="enemy-hp-fill"></div></div>
-                <div class="enemy-body"></div>
-              </div>
-              <!-- Player character -->
-              <div class="game-player">
-                <div class="player-body"></div>
               </div>
             </div>
             <!-- RuneCast scan overlay -->
@@ -572,6 +565,28 @@ const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 20);
 });
+
+// Video carousel — crossfade between game clips
+(function() {
+  const videos = document.querySelectorAll('.game-video');
+  if (videos.length < 2) return;
+  let current = 0;
+  const INTERVAL = 8000; // 8 seconds per clip
+  const FADE_MS = 1200;
+
+  setInterval(() => {
+    const prev = current;
+    current = (current + 1) % videos.length;
+    // Start next video
+    videos[current].currentTime = 0;
+    videos[current].play();
+    videos[current].style.transition = `opacity ${FADE_MS}ms ease-in-out`;
+    videos[current].classList.add('active');
+    // Fade out previous
+    videos[prev].style.transition = `opacity ${FADE_MS}ms ease-in-out`;
+    videos[prev].classList.remove('active');
+  }, INTERVAL);
+})();
 
 // Accordion
 function toggleAccordion(el) {
