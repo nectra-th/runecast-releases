@@ -1,7 +1,7 @@
 {
-  "version": "1.4.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.4.0/RuneCast.exe",
-  "changelog": "Advanced Mode tab with Flow Engine demo, simplified analytics.",
+  "version": "1.5.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.0/RuneCast.exe",
+  "changelog": "Template Groups: organize templates into collapsible groups with drag-drop, enable/disable, and aggregate match bars. Performance improvements and analytics heartbeat.",
   "required": false,
   "blocked": false,
   "block_message": ""
