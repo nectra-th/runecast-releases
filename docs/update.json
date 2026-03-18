@@ -1,7 +1,7 @@
 {
-  "version": "1.5.5",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.5/RuneCast.exe",
-  "changelog": "Natural Input (randomize click/drag positions). Global minimum delays. Hide cursor in BG mode. Settings persistence fixes.",
+  "version": "1.6.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.6.0/RuneCast.exe",
+  "changelog": "Stat tab (activity/detection/confidence dashboard). Low Priority templates (configurable interval). Card badges for Priority, No-Repeat, No-Consecutive. Re-draw SRC/DST for drag templates. Context menu checkmarks.",
   "required": false,
   "blocked": false,
   "block_message": "",
