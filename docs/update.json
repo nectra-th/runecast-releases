@@ -1,8 +1,9 @@
 {
-  "version": "1.5.1",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.1/RuneCast.exe",
-  "changelog": "Fixed auto-updater not restarting after update. Added retry logic and debug logging.",
+  "version": "1.5.2",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.2/RuneCast.exe",
+  "changelog": "Redesigned auto-updater for reliability. If update fails, download manually from: https://github.com/nectra-th/runecast-releases/releases/latest",
   "required": false,
   "blocked": false,
-  "block_message": ""
+  "block_message": "",
+  "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest"
 }
