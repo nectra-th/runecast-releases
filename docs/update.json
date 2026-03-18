@@ -1,7 +1,7 @@
 {
-  "version": "1.5.4",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.4/RuneCast.exe",
-  "changelog": "Profile system: unique folder IDs, soft delete, separated display name. LINE integration with Noti tab. Redesigned launcher.",
+  "version": "1.5.5",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.5/RuneCast.exe",
+  "changelog": "Natural Input (randomize click/drag positions). Global minimum delays. Hide cursor in BG mode. Settings persistence fixes.",
   "required": false,
   "blocked": false,
   "block_message": "",
