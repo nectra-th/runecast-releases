@@ -1,7 +1,7 @@
 {
-  "version": "1.5.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.0/RuneCast.exe",
-  "changelog": "LINE push notifications (idle/repeat alerts, remote control, snap screenshots), priority templates, adaptive engine with WorkerScaler, redesigned launcher with live status, new sidebar navigation, real-time loop-time display, new Algiz rune icon.",
+  "version": "1.5.1",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.1/RuneCast.exe",
+  "changelog": "Fixed auto-updater not restarting after update. Added retry logic and debug logging.",
   "required": false,
   "blocked": false,
   "block_message": ""
