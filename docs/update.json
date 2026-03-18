@@ -1,7 +1,7 @@
 {
-  "version": "1.5.3",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.3/RuneCast.exe",
-  "changelog": "Profile system improvements: display name separated from folder, soft delete, unique IDs. LINE bot: idle status, snap auto-expire, better button contrast.",
+  "version": "1.5.4",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.5.4/RuneCast.exe",
+  "changelog": "Profile system: unique folder IDs, soft delete, separated display name. LINE integration with Noti tab. Redesigned launcher.",
   "required": false,
   "blocked": false,
   "block_message": "",
