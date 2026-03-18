@@ -1,7 +1,7 @@
 {
-  "version": "1.6.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.6.0/RuneCast.exe",
-  "changelog": "Stat tab (activity/detection/confidence dashboard). Low Priority templates (configurable interval). Card badges for Priority, No-Repeat, No-Consecutive. Re-draw SRC/DST for drag templates. Context menu checkmarks.",
+  "version": "1.6.1",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.6.1/RuneCast.exe",
+  "changelog": "Auto Play on Launch. Auto Detect Window (re-attach when window reappears). NO SIGNAL overlay on preview. Auto-stop play when window lost.",
   "required": false,
   "blocked": false,
   "block_message": "",
