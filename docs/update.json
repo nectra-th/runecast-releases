@@ -1,7 +1,7 @@
 {
-  "version": "1.6.1",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.6.1/RuneCast.exe",
-  "changelog": "Auto Play on Launch. Auto Detect Window (re-attach when window reappears). NO SIGNAL overlay on preview. Auto-stop play when window lost.",
+  "version": "1.7.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.7.0/RuneCast.exe",
+  "changelog": "Drawing UX overhaul: step progress bar, right-click undo, mode colors. SVG icon badges. LINE QR card UI, idle/repeat settings, image compression (~4x smaller). Atomic config saves, thread-safe hot-swap.",
   "required": false,
   "blocked": false,
   "block_message": "",
