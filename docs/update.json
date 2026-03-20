@@ -1,7 +1,7 @@
 {
-  "version": "1.7.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.7.0/RuneCast.exe",
-  "changelog": "Drawing UX overhaul: step progress bar, right-click undo, mode colors. SVG icon badges. LINE QR card UI, idle/repeat settings, image compression (~4x smaller). Atomic config saves, thread-safe hot-swap.",
+  "version": "1.8.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.0/RuneCast.exe",
+  "changelog": "Frameless launcher with rounded corners & drag-to-move. Play toast overlay on game window with auto-hide on focus loss. Real Mouse auto-pause/resume. Renamed mouse modes to Virtual/Real with step-flow dialog.",
   "required": false,
   "blocked": false,
   "block_message": "",
