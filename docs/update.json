@@ -1,7 +1,7 @@
 {
-  "version": "1.8.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.0/RuneCast.exe",
-  "changelog": "Frameless launcher with rounded corners & drag-to-move. Play toast overlay on game window with auto-hide on focus loss. Real Mouse auto-pause/resume. Renamed mouse modes to Virtual/Real with step-flow dialog.",
+  "version": "1.8.1",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.1/RuneCast.exe",
+  "changelog": "Fixed preview not updating in normal mode. Fixed LINE QR code. Snap auto-uploads every 2 min. Captcha waits indefinitely (no timeout). Fixed captcha race condition.",
   "required": false,
   "blocked": false,
   "block_message": "",
