@@ -1,7 +1,7 @@
 {
-  "version": "1.8.1",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.1/RuneCast.exe",
-  "changelog": "Fixed preview not updating in normal mode. Fixed LINE QR code. Snap auto-uploads every 2 min. Captcha waits indefinitely (no timeout). Fixed captcha race condition.",
+  "version": "1.8.2",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.2/RuneCast.exe",
+  "changelog": "Fixed preview frozen in normal mode (non-contiguous WGC frame buffer).",
   "required": false,
   "blocked": false,
   "block_message": "",
