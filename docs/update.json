@@ -1,7 +1,7 @@
 {
-  "version": "1.8.3",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.3/RuneCast.exe",
-  "changelog": "Unlimited profiles. Fixed captcha response not working after long wait. Preview contiguity fix.",
+  "version": "1.8.4",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.4/RuneCast.exe",
+  "changelog": "Reduced server load — sync/snap/status throttled. Captcha pending state fix.",
   "required": false,
   "blocked": false,
   "block_message": "",
