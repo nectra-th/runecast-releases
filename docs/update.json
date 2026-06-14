@@ -1,7 +1,7 @@
 {
-  "version": "1.8.6",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.6/RuneCast.exe",
-  "changelog": "Green flash highlight on history click, updater error detail.",
+  "version": "1.9.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.0/RuneCast.exe",
+  "changelog": "Multi-select template cards, captcha auto-resume, draw guide overlay, click effects, event bubbles.",
   "required": false,
   "blocked": false,
   "block_message": "",
