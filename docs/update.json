@@ -1,7 +1,7 @@
 {
-  "version": "1.8.5",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.5/RuneCast.exe",
-  "changelog": "Captcha filler fix — reliable KV write, #c fallback command, auto-resume, yellow UI state.",
+  "version": "1.8.6",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.8.6/RuneCast.exe",
+  "changelog": "Green flash highlight on history click, updater error detail.",
   "required": false,
   "blocked": false,
   "block_message": "",
