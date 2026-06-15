@@ -1,7 +1,7 @@
 {
-  "version": "1.9.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.0/RuneCast.exe",
-  "changelog": "Multi-select template cards, captcha auto-resume, draw guide overlay, click effects, event bubbles.",
+  "version": "1.9.1",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.1/RuneCast.exe",
+  "changelog": "Fix LINE Connect button stuck on Connecting, fix premature LINE disconnection.",
   "required": false,
   "blocked": false,
   "block_message": "",
