@@ -1,7 +1,7 @@
 {
-  "version": "1.9.1",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.1/RuneCast.exe",
-  "changelog": "Fix LINE Connect button stuck on Connecting, fix premature LINE disconnection.",
+  "version": "1.9.2",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.2/RuneCast.exe",
+  "changelog": "Fix auto-update download failure, improved SSL handling and retry logic.",
   "required": false,
   "blocked": false,
   "block_message": "",
