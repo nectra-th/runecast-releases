@@ -1,7 +1,7 @@
 {
-  "version": "1.9.2",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.2/RuneCast.exe",
-  "changelog": "Fix auto-update download failure, improved SSL handling and retry logic.",
+  "version": "1.9.3",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.3/RuneCast.exe",
+  "changelog": "Fix LINE connection dropping after connect, fix Connect button stuck.",
   "required": false,
   "blocked": false,
   "block_message": "",
