@@ -1,7 +1,7 @@
 {
-  "version": "1.9.3",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.3/RuneCast.exe",
-  "changelog": "Fix LINE connection dropping after connect, fix Connect button stuck.",
+  "version": "1.9.5",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.5/RuneCast.exe",
+  "changelog": "Per-instance captcha routing, KV-free command queue, 12h captcha timeout, min sync interval 10s.",
   "required": false,
   "blocked": false,
   "block_message": "",
