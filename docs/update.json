@@ -1,10 +1,10 @@
 {
-  "version": "1.9.7",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.7/RuneCast.exe",
-  "changelog": "Bug fixes and stability improvements for Captcha Filler and Rune Link sync.",
+  "version": "1.9.8",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.8/RuneCast.exe",
+  "changelog": "Improved Captcha Filler setup and reliability.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "db6fdb0269487e6a22e56fc8a9175aa9dfedbe15e94b18f580aedba35d5b4c1d"
+  "sha256": "4237a3c8773c567a7cd643ed30ee9099f7a2dffec2ed0017a797e088d636b451"
 }
