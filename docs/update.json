@@ -1,9 +1,10 @@
 {
-  "version": "1.9.5",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.5/RuneCast.exe",
-  "changelog": "Per-instance captcha routing, KV-free command queue, 12h captcha timeout, min sync interval 10s.",
+  "version": "1.9.6",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.6/RuneCast.exe",
+  "changelog": "SVG icon caching, SHA-256 download verification, COM pointer safety.",
   "required": false,
   "blocked": false,
   "block_message": "",
-  "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest"
+  "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
+  "sha256": "65d302ea92e1829df47cca18b489f7090f868c9c43b534f03842f6b86e3f7d63"
 }
