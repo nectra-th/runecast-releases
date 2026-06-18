@@ -1,10 +1,10 @@
 {
-  "version": "1.9.8",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.8/RuneCast.exe",
-  "changelog": "Improved Captcha Filler setup and reliability.",
+  "version": "1.9.9",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.9/RuneCast.exe",
+  "changelog": "Improved Captcha Filler timing and reliability.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "4237a3c8773c567a7cd643ed30ee9099f7a2dffec2ed0017a797e088d636b451"
+  "sha256": "045c4e12a45a928a538b0f2280c621af9a79a6026f02576beeb4a6b771b88668"
 }
