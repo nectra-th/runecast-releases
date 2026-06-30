@@ -1,10 +1,10 @@
 {
-  "version": "1.9.9",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v1.9.9/RuneCast.exe",
-  "changelog": "Improved Captcha Filler timing and reliability.",
+  "version": "2.0.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.0.0/RuneCast.exe",
+  "changelog": "Auto-Captcha silent mode: reduces LINE push messages from 3-6 per captcha to 1. Only a single confirmation is sent when captcha clears, showing attempt count.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "045c4e12a45a928a538b0f2280c621af9a79a6026f02576beeb4a6b771b88668"
+  "sha256": "dd8be4b37035cc8c5936a2effbed184f2ab4383e9ab610123d6bc84ae27adcf6"
 }
