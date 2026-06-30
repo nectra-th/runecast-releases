@@ -1,10 +1,10 @@
 {
-  "version": "2.1.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.0/RuneCast.exe",
-  "changelog": "Idle Alert action: choose between stopping automation or auto-clicking a screen position when idle. Added LINE notification toggle for idle alerts. Extended all delay limits to 60,000ms (Before, After, Repeat, Wait, and global min delays).",
+  "version": "2.1.1",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.1/RuneCast.exe",
+  "changelog": "Idle click position now uses the same preview picker as templates (no more countdown). Fixed idle click settings not persisting after restart.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "1825724cc8ce4add6fc6ae05d86c38551504311f751dc6c9c931e118c6ac0566"
+  "sha256": "d0728c66d98e0a1d1a6472d21eb3f4e2dca1c8763032481c112edad503cbc14a"
 }
