@@ -1,10 +1,10 @@
 {
-  "version": "2.0.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.0.0/RuneCast.exe",
-  "changelog": "Auto-Captcha silent mode: reduces LINE push messages from 3-6 per captcha to 1. Only a single confirmation is sent when captcha clears, showing attempt count.",
+  "version": "2.1.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.0/RuneCast.exe",
+  "changelog": "Idle Alert action: choose between stopping automation or auto-clicking a screen position when idle. Added LINE notification toggle for idle alerts. Extended all delay limits to 60,000ms (Before, After, Repeat, Wait, and global min delays).",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "a2d2bb3585796425657115974d36940dc4adb4caf29a4c94ca07b3903a95b9bf"
+  "sha256": "1825724cc8ce4add6fc6ae05d86c38551504311f751dc6c9c931e118c6ac0566"
 }
