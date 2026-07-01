@@ -1,10 +1,10 @@
 {
-  "version": "2.1.1",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.1/RuneCast.exe",
-  "changelog": "Idle click position now uses the same preview picker as templates (no more countdown). Fixed idle click settings not persisting after restart.",
+  "version": "2.1.2",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.2/RuneCast.exe",
+  "changelog": "Captcha cleared notification now shows a record with the captcha image on the left and the answer on the right in a single flex message. Fixed shift-select highlight not showing on recently-added cards.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "d0728c66d98e0a1d1a6472d21eb3f4e2dca1c8763032481c112edad503cbc14a"
+  "sha256": "6d486911a21d49b467239d7489d03665bcfb7326b29de9eb122c8c7796c82147"
 }
