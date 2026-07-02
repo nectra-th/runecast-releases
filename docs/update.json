@@ -1,10 +1,10 @@
 {
-  "version": "2.1.2",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.2/RuneCast.exe",
-  "changelog": "Captcha cleared notification now shows a record with the captcha image on the left and the answer on the right in a single flex message. Fixed shift-select highlight not showing on recently-added cards.",
+  "version": "2.1.3",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.3/RuneCast.exe",
+  "changelog": "Captcha confirm now shows the full attempt history: each retry row has its captcha image on the left and the submitted answer on the right, with the cleared row highlighted.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "6d486911a21d49b467239d7489d03665bcfb7326b29de9eb122c8c7796c82147"
+  "sha256": "0772921ef9864a94f5f7b5f7802996aec34df7faf94d62cbd6588acd4a199310"
 }
