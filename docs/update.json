@@ -1,10 +1,10 @@
 {
-  "version": "2.1.3",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.3/RuneCast.exe",
-  "changelog": "Captcha confirm now shows the full attempt history: each retry row has its captcha image on the left and the submitted answer on the right, with the cleared row highlighted.",
+  "version": "2.1.4",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.4/RuneCast.exe",
+  "changelog": "Template creation hotkeys F1-F5, improved captcha input reliability with double-click focus and longer delays, captcha debug logging.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "0772921ef9864a94f5f7b5f7802996aec34df7faf94d62cbd6588acd4a199310"
+  "sha256": "60922529bbb87629102d29dce15f453ccdabf31ffae7637801cae7ffec83e0a7"
 }
