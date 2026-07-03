@@ -1,10 +1,10 @@
 {
-  "version": "2.1.4",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.4/RuneCast.exe",
-  "changelog": "Template creation hotkeys F1-F5, improved captcha input reliability with double-click focus and longer delays, captcha debug logging.",
+  "version": "2.1.5",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.5/RuneCast.exe",
+  "changelog": "Captcha input verification before submit (no more wasted credits), improved click reliability, fixed _MEI temp directory cleanup.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "60922529bbb87629102d29dce15f453ccdabf31ffae7637801cae7ffec83e0a7"
+  "sha256": "11cf6113b9d88813cd68036700d6ea8bbff82636fc9beea628af5c50935ddba0"
 }
