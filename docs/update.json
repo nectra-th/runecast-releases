@@ -1,10 +1,10 @@
 {
-  "version": "2.1.5",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.5/RuneCast.exe",
-  "changelog": "Captcha input verification before submit (no more wasted credits), improved click reliability, fixed _MEI temp directory cleanup.",
+  "version": "2.1.6",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.6/RuneCast.exe",
+  "changelog": "Captcha input verification before submit, verify logging, fixed 'a' prefix bug, improved click reliability, _MEI cleanup.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "3900c4eca377f69e9d2e0a3d421069c1ec87a8290563b54fb66a736f7e364b59"
+  "sha256": "d2d9dce917a203cdd83d75f80b2c5f76bbd9da3bed49dacf0399ec0f2fce7b75"
 }
