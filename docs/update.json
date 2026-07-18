@@ -1,10 +1,10 @@
 {
-  "version": "2.1.8",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.8/RuneCast.exe",
-  "changelog": "Progressive dst matching: search inner 50% near drawn position first, expand to full area if not found.",
+  "version": "2.1.9",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.9/RuneCast.exe",
+  "changelog": "Grayscale matching option in Settings — matches by shape only, ~2-3x faster.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "ac1730af5f7cef12036541e293a532c0054b8704a8d748f64d7400acc812f3f1"
+  "sha256": "8a021401b8e70b2d90772651fa3f2e4a9bc0cdc29d206fda884905ea1b34e106"
 }
