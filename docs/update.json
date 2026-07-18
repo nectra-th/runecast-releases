@@ -1,10 +1,10 @@
 {
-  "version": "2.1.6",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.6/RuneCast.exe",
-  "changelog": "Captcha input verification before submit, verify logging, fixed 'a' prefix bug, improved click reliability, _MEI cleanup.",
+  "version": "2.1.7",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.1.7/RuneCast.exe",
+  "changelog": "Multi-template dst match: priority mode (break on first match like src).",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "d2d9dce917a203cdd83d75f80b2c5f76bbd9da3bed49dacf0399ec0f2fce7b75"
+  "sha256": "4530621cccd7d0554fc6c409f8c1e31bc476c62403e2ac68d324dfbe13201f0c"
 }
