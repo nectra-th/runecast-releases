@@ -1,10 +1,10 @@
 {
-  "version": "2.2.1",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.2.1/RuneCast.exe",
-  "changelog": "Safety & Hardening: thread safety fixes, matcher robustness, config save debounce, exponential backoff, crash.log rotation, and more.",
+  "version": "2.3.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.3.0/RuneCast.exe",
+  "changelog": "After Actions: chain additional clicks or hotkey presses after any template fires. Configurable delays, pick coordinates from preview, works with all input modes.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "98fa321f2e2ae835a6d85d54d2a2e8622ae12936fa2fdece682cbf6331a5cc64"
+  "sha256": "b55ac161d0ce4a1317d09f3b9d1206d4d4262c947fe6748f80a4795f429cf1d6"
 }
