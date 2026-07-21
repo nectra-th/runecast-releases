@@ -1,10 +1,10 @@
 {
-  "version": "2.3.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.3.0/RuneCast.exe",
-  "changelog": "After Actions: chain additional clicks or hotkey presses after any template fires. Configurable delays, pick coordinates from preview, works with all input modes.",
+  "version": "2.3.1",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.3.1/RuneCast.exe",
+  "changelog": "Memory leak fix: pin winrt v3.2.1 (WGC surface leak), release dxgi_surface COM ref, track and cleanup Qt action effects on play stop.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "b55ac161d0ce4a1317d09f3b9d1206d4d4262c947fe6748f80a4795f429cf1d6"
+  "sha256": "dcb184da56941f18dc45f83afc2723175816abe9a236f7060f7622f90e9a7741"
 }
