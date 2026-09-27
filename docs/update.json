@@ -1,10 +1,10 @@
 {
-  "version": "2.4.1",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.4.1/RuneCast.exe",
-  "changelog": "Fixes for 2.4.0: the launcher no longer freezes every couple of seconds (the profile scan was reading every process's command line), the Stop button actually terminates a profile, and a running profile's .pid file is no longer deleted mid-run, which is what allowed duplicate instances on one game.",
+  "version": "2.5.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.5.0/RuneCast.exe",
+  "changelog": "New Hybrid input mode: hold the toolbar's mode button to enable it. Clicks park the real cursor on the target before posting, and keys borrow the foreground briefly, for games that ignore background input (Unity). Fixes: N/A templates no longer block the templates below them or Find+Wait, Find+Wait now requires the image to stay on screen for the whole wait, keys send correctly under a non-US keyboard layout, and a normal window no longer closes itself when the target game exits.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "080f83cfbbafe4bef6faa27c5e1613dd53f26c2fdbcba3daef8cc45ea0e154a0"
+  "sha256": "ee4a3c8927f89eb79fd28ecbb0668c53f9c2fb9a5b59556b5df73c477ddafe04"
 }
