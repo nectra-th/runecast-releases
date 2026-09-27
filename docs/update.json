@@ -1,10 +1,10 @@
 {
-  "version": "2.3.1",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.3.1/RuneCast.exe",
-  "changelog": "Memory leak fix: pin winrt v3.2.1 (WGC surface leak), release dxgi_surface COM ref, track and cleanup Qt action effects on play stop.",
+  "version": "2.4.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.4.0/RuneCast.exe",
+  "changelog": "New: N/A template mode (detect only, After Actions still run) and a Scroll after-action (up/down for N ms). Fixes: invisible after-action delete button, compact minimize now keeps the right edge, compact window returns on top when the target closes and exits after 2 min without it, and duplicate instances on the same profile are prevented.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "7677d564cbc07ba59c2b4018bd5d324bd559c3b3df2cfe5bacb51b03adcb3c6d"
+  "sha256": "f32b552cb9ed9cbbc36561db6a5e28b01e8035d9d4aceb44a4b0dd8dc00a5a79"
 }
