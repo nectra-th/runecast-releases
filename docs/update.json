@@ -1,10 +1,10 @@
 {
-  "version": "2.5.0",
-  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.5.0/RuneCast.exe",
-  "changelog": "New Hybrid input mode: hold the toolbar's mode button to enable it. Clicks park the real cursor on the target before posting, and keys borrow the foreground briefly, for games that ignore background input (Unity). Fixes: N/A templates no longer block the templates below them or Find+Wait, Find+Wait now requires the image to stay on screen for the whole wait, keys send correctly under a non-US keyboard layout, and a normal window no longer closes itself when the target game exits.",
+  "version": "2.6.0",
+  "download_url": "https://github.com/nectra-th/runecast-releases/releases/download/v2.6.0/RuneCast.exe",
+  "changelog": "Templates are now Find → Actions: one find plus a list of actions (click, key, scroll, drag, wait, move) edited on the card, several images in FIND, and Held for on every template. Stop now always stops (no clicks after Stop, the hotkey works from any app in Hybrid), no crash on quick Play/Stop, drags hold long enough to pick items up, and GPU window capture (WGC) finally ships, so capture keeps working when the game is covered.",
   "required": false,
   "blocked": false,
   "block_message": "",
   "manual_url": "https://github.com/nectra-th/runecast-releases/releases/latest",
-  "sha256": "ee4a3c8927f89eb79fd28ecbb0668c53f9c2fb9a5b59556b5df73c477ddafe04"
+  "sha256": "4e1413c4ee4f9f35b8850d745dc2c4232a75bf370e8b8607b386ae113b0b92cc"
 }
